@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* header section start*/
+
 .header_section {
     width: 100%;
     float: left;
@@ -33,7 +37,7 @@
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #01d28e;
+    color: #ff0000;
 }
 
 .navbar-brand {
@@ -61,5 +65,87 @@
 }
 
 .navbar-brand span {
-    color: #01d28e;
+    color: #ff0000;
 }
+
+/* header section end*/
+
+/* home section start */
+
+.home_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: 200px 0px 100px 0px;
+}
+
+.home_img{
+    width: 100%;
+}
+
+.home_img img{
+    width: 100%;
+}
+
+.home_main {
+    width: 100%;
+    float: left;
+}
+
+.home_sub {
+    width: 100%;
+    font-size: 60px;
+    color: #2c2c2c;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+.home_text {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    color: #403f3f;
+    margin: 20px 0px 0px 0px;
+}
+
+#content{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #140073;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.contact_bt {
+    width: 175px;
+    float: left;
+}
+
+.contact_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #ff0000;
+    color: #fcf8f8;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contact_bt a:hover {
+    color: #fcf8f8;
+    background-color: #363636;
+}
+
+.contact_bt.active a {
+    color: #fcf8f8;
+    background-color: #363636;
+    margin-left: 10px;
+}
+
+/* home section end */

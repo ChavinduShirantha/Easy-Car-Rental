@@ -3,6 +3,7 @@
 /* header section start*/
 
 .header_section {
+    position: fixed;
     width: 100%;
     float: left;
     background-color: #0e0c06;
@@ -220,6 +221,12 @@
 /* about section end */
 
 /* service section start */
+
+.servicesSection{
+    width: 100%;
+    float: left;
+    padding: 90px 0px;
+}
 
 .services_main {
     width: 100%;

@@ -9,6 +9,7 @@
     background-color: #0e0c06;
     height: auto;
     background-size: 100%;
+    z-index: 10;
 }
 
 .header_bg {

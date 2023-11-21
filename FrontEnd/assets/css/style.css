@@ -452,3 +452,49 @@
 
 /* client section end */
 
+/*Counter section start*/
+
+#counterSection{
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.counter {
+    /*background-color: #d2d0d0;*/
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.count-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #00a26e;
+}
+
+.counter>i{
+    font-size: 50px;
+}
+
+#counter-body{
+    background: #bcfdd8;
+    border-radius: 10px;
+}
+
+/*Counter section end*/

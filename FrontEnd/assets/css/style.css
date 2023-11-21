@@ -80,11 +80,11 @@
     background: linear-gradient(to right, #d9d9d9, #f5f5f5);
 }
 
-.home_img{
+.home_img {
     width: 100%;
 }
 
-.home_img img{
+.home_img img {
     width: 100%;
 }
 
@@ -109,7 +109,7 @@
     margin: 20px 0px 0px 0px;
 }
 
-#content{
+#content {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
     font-size: 1.4rem;
@@ -218,3 +218,59 @@
 
 
 /* about section end */
+
+/* service section start */
+
+.services_main {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.service-item {
+    height: 500px;
+    background: #F8F9FAFF;
+    transition: .5s;
+}
+
+.service-item:hover,
+.service-item.active {
+    background: rgba(0, 147, 86, 0.5)
+}
+
+.service-item h1,
+.service-item h4,
+.service-item p {
+    transition: .5s;
+}
+
+
+.service-item:hover h1,
+.service-item.active h1 {
+    color: #343A40FF !important;
+}
+
+.service-item:hover p,
+.service-item.active p {
+    color: #4b4b49 !important;
+}
+
+.service-item:hover h4,
+.service-item.active h4 {
+    color: #F8F9FAFF;
+}
+
+.service-icon {
+    background: #00a26e;
+}
+
+.service-icon>i {
+    color: #ffffff !important;
+}
+
+/* service section end */
+

@@ -503,3 +503,105 @@
 }
 
 /*Counter section end*/
+
+/*register Section start*/
+
+.btn_main1 {
+    width: 100%;
+    float: right;
+    padding-top: 40px;
+}
+
+.contact_bt1 {
+    width: 150px;
+    float: right;
+}
+
+.contact_bt1 a {
+    width: 100%;
+    float: right;
+    font-size: 18px;
+    background-color: #003a08;
+    /*background-color: #ff6a00;*/
+    color: #fcf8f8;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contact_bt1 a:hover {
+    color: #fcf8f8;
+    background-color: #363636;
+}
+
+.contact_bt1.active a {
+    color: #fcf8f8;
+    background-color: #363636;
+    margin-left: 10px;
+}
+
+.btn_main2 {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.contact_bt2 {
+    width: 150px;
+    float: left;
+}
+
+.contact_bt2 a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #00A26EFF;
+    /*background-color: #ff6a00;*/
+    color: #fcf8f8;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contact_bt2 a:hover {
+    color: #fcf8f8;
+    background-color: #363636;
+}
+
+.contact_bt2.active a {
+    color: #fcf8f8;
+    background-color: #363636;
+    margin-left: 10px;
+}
+
+#register-left-box div{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#register-right-box>div{
+    background: #003a08;
+    /*background: #0e1d3f;*/
+}
+
+#register-right-box>div>div>p{
+    color: #b2b2b2;
+}
+
+#register-left-box>div>div>p{
+    color: #d2d2d2;
+}
+
+#register-left-box>div{
+    background: rgb(0, 162, 110);
+    /*background: #021c52;*/
+}
+
+#register-right-box div{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/*register Section end*/

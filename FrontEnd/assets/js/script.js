@@ -40,6 +40,7 @@ $(document).ready(function() {
     $("#carsBtn>a").css("color", "#ffffff");
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#ffffff");
 });
 
 
@@ -50,6 +51,7 @@ $("#homeBtn").click(function() {
     $("#carsBtn>a").css("color", "#ffffff");
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#ffffff");
 });
 
 $("#aboutBtn").click(function() {
@@ -59,6 +61,7 @@ $("#aboutBtn").click(function() {
     $("#carsBtn>a").css("color", "#ffffff");
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#ffffff");
 });
 
 $("#serviceBtn").click(function() {
@@ -68,6 +71,7 @@ $("#serviceBtn").click(function() {
     $("#carsBtn>a").css("color", "#ffffff");
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#ffffff");
 });
 
 $("#carsBtn").click(function() {
@@ -77,6 +81,7 @@ $("#carsBtn").click(function() {
     $("#carsBtn>a").css("color", "#00a26e");
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#ffffff");
 });
 
 $("#clientBtn").click(function() {
@@ -86,6 +91,7 @@ $("#clientBtn").click(function() {
     $("#carsBtn>a").css("color", "#ffffff");
     $("#clientBtn>a").css("color", "#00a26e");
     $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#ffffff");
 });
 
 $("#contactBtn").click(function() {
@@ -95,6 +101,17 @@ $("#contactBtn").click(function() {
     $("#carsBtn>a").css("color", "#ffffff");
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#00a26e");
+    $("#registerBtn>a").css("color", "#ffffff");
+});
+
+$("#registerBtn").click(function() {
+    $("#homeBtn>a").css("color", "#ffffff");
+    $("#aboutBtn>a").css("color", "#ffffff");
+    $("#serviceBtn>a").css("color", "#ffffff");
+    $("#carsBtn>a").css("color", "#ffffff");
+    $("#clientBtn>a").css("color", "#ffffff");
+    $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#00a26e");
 });
 
 

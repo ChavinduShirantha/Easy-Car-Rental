@@ -225,7 +225,7 @@
 
 /* service section start */
 
-.servicesSection{
+.servicesSection {
     width: 100%;
     float: left;
     padding: 90px 0px;
@@ -280,7 +280,7 @@
     border-radius: 10px;
 }
 
-.service-icon>i {
+.service-icon > i {
     color: #ffffff !important;
 }
 
@@ -288,7 +288,7 @@
 
 /* client section start */
 
-.clientSection{
+.clientSection {
     width: 100%;
     float: left;
     padding: 90px 0px;
@@ -306,13 +306,13 @@
     border-radius: 50%;
     width: 8px;
     height: 8px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 
 }
 
 .blog .carousel-indicators .active {
     background: #707070;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .our-team-section {
@@ -320,6 +320,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .our-team-section:before {
     position: absolute;
     top: -0;
@@ -331,6 +332,7 @@
     float: left;
     z-index: 99;
 }
+
 .our-team {
     padding: 0 0 40px;
     background: rgba(232, 232, 232, 0.8);
@@ -341,6 +343,7 @@
     height: 400px;
     border-radius: 10px;
 }
+
 .our-team:hover {
     border-bottom: 5px solid #2f2f2f;
 }
@@ -353,6 +356,7 @@
     z-index: 1;
     position: relative;
 }
+
 .our-team .pic:before {
     content: "";
     width: 100%;
@@ -367,10 +371,12 @@
     transform: scale(3);
     transition: all 0.3s linear 0s;
 }
+
 .our-team:hover .pic:before {
     height: 100%;
     background: #2f2f2f;
 }
+
 .our-team .pic:after {
     content: "";
     width: 100%;
@@ -383,9 +389,11 @@
     z-index: 1;
     transition: all 0.3s linear 0s;
 }
+
 .our-team:hover .pic:after {
     background: #00a26e;
 }
+
 .our-team .pic img {
     width: 100%;
     height: 100%;
@@ -397,13 +405,16 @@
     position: relative;
     z-index: 2;
 }
+
 .our-team:hover .pic img {
     box-shadow: 0 0 0 14px #f7f5ec;
     transform: scale(0.7);
 }
+
 .our-team .team-content {
     margin-bottom: 30px;
 }
+
 .our-team .title {
     font-size: 22px;
     font-weight: 700;
@@ -412,12 +423,14 @@
     text-transform: capitalize;
     margin-bottom: 5px;
 }
+
 .our-team .post {
     display: block;
     font-size: 15px;
     color: #4e5052;
     text-transform: capitalize;
 }
+
 .our-team .social {
     width: 100%;
     padding-top: 10px;
@@ -428,12 +441,15 @@
     left: 0;
     transition: all 0.5s ease 0s;
 }
+
 .our-team:hover .social {
     bottom: 0;
 }
+
 .our-team .social li {
     display: inline-block;
 }
+
 .our-team .social li a {
     display: block;
     padding-top: 6px;
@@ -441,17 +457,19 @@
     color: #fff;
     transition: all 0.3s ease 0s;
 }
+
 .our-team .social li a:hover {
     color: #2f2f2f;
     background: #f7f5ec;
 }
+
 @media only screen and (max-width: 990px) {
     .our-team {
         margin-bottom: 10px;
     }
 }
 
-#carouselExampleDark{
+#carouselExampleDark {
     height: 420px;
 }
 
@@ -459,7 +477,7 @@
 
 /*Counter section start*/
 
-#counterSection{
+#counterSection {
     width: 100%;
     padding: 90px 0px;
 }
@@ -493,11 +511,11 @@
     color: #00a26e;
 }
 
-.counter>i{
+.counter > i {
     font-size: 50px;
 }
 
-#counter-body{
+#counter-body {
     background: #bcfdd8;
     border-radius: 10px;
 }
@@ -576,32 +594,86 @@
     margin-left: 10px;
 }
 
-#register-left-box div{
+#register-left-box div {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
 
-#register-right-box>div{
+#register-right-box > div {
     background: #003a08;
     /*background: #0e1d3f;*/
 }
 
-#register-right-box>div>div>p{
+#register-right-box > div > div > p {
     color: #b2b2b2;
 }
 
-#register-left-box>div>div>p{
+#register-left-box > div > div > p {
     color: #d2d2d2;
 }
 
-#register-left-box>div{
+#register-left-box > div {
     background: rgb(0, 162, 110);
     /*background: #021c52;*/
 }
 
-#register-right-box div{
+#register-right-box div {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 /*register Section end*/
+
+/*Contact Section Start*/
+
+#btnSendMessage {
+    background-color: #00a26e;
+}
+
+#btnSendMessage:hover {
+    background-color: #363636;
+}
+
+.contact-details-box {
+    border-radius: 10px;
+    background: #003a08 !important;
+}
+
+.contact-details-box > div > i {
+    color: #00A26EFF !important;
+    font-size: 20px;
+}
+
+.contact-details-box > div > div > p {
+    color: #d2d2d2;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 357px;
+}
+
+.map-box {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contactSection .contact-info p {
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.contactSection .contact-info p a {
+    color: #1a1a1a;
+}
+
+.contactSection .contact-info p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+}
+
+/*Contact Section End*/
+

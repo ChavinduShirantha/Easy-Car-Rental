@@ -12,6 +12,10 @@
     z-index: 10;
 }
 
+#navIcon{
+    color: #ffffff;
+}
+
 .header_bg {
     width: 100%;
     float: left;
@@ -401,7 +405,6 @@
     transform: scale(1);
     transition: all 0.9s ease 0s;
     box-shadow: 0 0 0 14px #f7f5ec;
-    transform: scale(0.7);
     position: relative;
     z-index: 2;
 }
@@ -466,6 +469,10 @@
 @media only screen and (max-width: 990px) {
     .our-team {
         margin-bottom: 10px;
+    }
+
+    .clientSection{
+        height: 1400px;
     }
 }
 

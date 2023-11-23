@@ -21,40 +21,41 @@
 <!-- header section start -->
 <div class="header_section">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#" id="logo">Easy <span>Car Rent.</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" id="homeBtn">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item" id="aboutBtn">
-                        <a class="nav-link" href="#aboutSection">About</a>
-                    </li>
-                    <li class="nav-item" id="serviceBtn">
-                        <a class="nav-link" href="#servicesSection">Services</a>
-                    </li>
-                    <li class="nav-item" id="carsBtn">
-                        <a class="nav-link" href="#">Cars</a>
-                    </li>
-                    <li class="nav-item" id="registerBtn">
-                        <a class="nav-link" href="#registerSection">Register</a>
-                    </li>
-                    <li class="nav-item" id="clientBtn">
-                        <a class="nav-link" href="#clientSection">Client</a>
-                    </li>
-                    <li class="nav-item" id="contactBtn">
-                        <a class="nav-link" href="#contactSection">Contact</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                </form>
-            </div>
-        </nav>
+        <div class="container-fluid position-relative nav-bar p-0">
+            <nav class="navbar navbar-expand-lg bg-light navbar-dark py-3 py-lg-0 pl-3 pl-lg-5 ">
+                <a class="navbar-brand text-uppercase" href="#" id="logo">Easy <span>Car Rent.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="navIcon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto py-0">
+                        <li class="nav-item" id="homeBtn">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item" id="aboutBtn">
+                            <a class="nav-link" href="#aboutSection">About</a>
+                        </li>
+                        <li class="nav-item" id="serviceBtn">
+                            <a class="nav-link" href="#servicesSection">Services</a>
+                        </li>
+                        <li class="nav-item" id="carsBtn">
+                            <a class="nav-link" href="#">Cars</a>
+                        </li>
+                        <li class="nav-item" id="registerBtn">
+                            <a class="nav-link" href="#registerSection">Register</a>
+                        </li>
+                        <li class="nav-item" id="clientBtn">
+                            <a class="nav-link" href="#clientSection">Client</a>
+                        </li>
+                        <li class="nav-item" id="contactBtn">
+                            <a class="nav-link" href="#contactSection">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
 </div>
 <!-- header section end -->
@@ -63,15 +64,17 @@
 <div class="home_section layout_padding" id="home_section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 home_main">
-                <h2 class="home_sub">Welcome <br><span style="color: #00a26e">Easy Car Rental</span><br> Pvt Ltd.</h2>
+            <div class="col-lg-6 order-2 order-lg-1 col-md-12 home_main  text-md-center text-lg-left">
+                <h2 class="home_sub">Welcome <br><span style="color: #00a26e">Easy Car Rental</span><br> Pvt Ltd.
+                </h2>
                 <h4><span id="content"></span></h4>
                 <p class="home_text">Looking for a vehicle? You’re at the right place.</p>
                 <div class="btn_main">
-                    <div class="contact_bt"><a class="btn-Register-customer" href="#registerSection">Register</a></div>
+                    <div class="contact_bt "><a class="btn-Register-customer" href="#registerSection">Register</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 order-1 order-lg-2 col-md-12">
                 <div class="home_img"><img src="assets/img/homeImg.png"></div>
             </div>
         </div>
@@ -84,10 +87,10 @@
     <div class="container">
         <div class="about_section_2">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="image_iman"><img src="assets/img/aboutImg.png" class="about_img"></div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="about_box">
                         <h1 class="about_main">About <span style="color: #00a26e;">Us</span></h1>
                         <p class="about_text">
@@ -97,7 +100,8 @@
                             50 cars and 40 drivers working for them in regular shifts. Our company is located at No.
                             200,
                             Galle
-                            Road, Panadura, and well known for our services. Usually, people who don’t own a car, people
+                            Road, Panadura, and well known for our services. Usually, people who don’t own a car,
+                            people
                             who
                             are waiting for their car to be repaired and, travelers or tourists seek their services.
                         </p>
@@ -126,9 +130,12 @@
                     </div>
                     <h4 class="text-uppercase mb-3">Self-Drive Rentals</h4>
                     <p class="m-0">
-                        If you are looking for a vehicle to drive for your personal use, we have a wide range of options
-                        that are classified under 4 categories for you to choose from, depending on your requirement.
-                        Our flexible rental periods allow you to have the vehicle either on a weekly or monthly basis.
+                        If you are looking for a vehicle to drive for your personal use, we have a wide range of
+                        options
+                        that are classified under 4 categories for you to choose from, depending on your
+                        requirement.
+                        Our flexible rental periods allow you to have the vehicle either on a weekly or monthly
+                        basis.
                     </p>
                 </div>
             </div>
@@ -143,8 +150,10 @@
                     </div>
                     <h4 class="text-uppercase mb-3">Weddings & Events</h4>
                     <p class="m-0">
-                        When it is that moment when how you arrive matters, we are there to provide you with a vehicle
-                        that best suits your occasion. Whether it is a wedding, corporate event, celebrity event or VIP
+                        When it is that moment when how you arrive matters, we are there to provide you with a
+                        vehicle
+                        that best suits your occasion. Whether it is a wedding, corporate event, celebrity event or
+                        VIP
                         event, our vast selection of prime vehicles will contribute to make that important moment, a
                         memorable one.
                     </p>
@@ -161,9 +170,12 @@
                     </div>
                     <h4 class="text-uppercase mb-3">Airport Transfers</h4>
                     <p class="m-0">
-                        Foreign travel can be stressful and exhausting, so we will take care of your hassle free drop
-                        off and pick up to and from any location in Sri Lanka, at any time of the day and night, making
-                        your travel seamless and comfortable. Our friendly and decent drivers will provide transport to
+                        Foreign travel can be stressful and exhausting, so we will take care of your hassle free
+                        drop
+                        off and pick up to and from any location in Sri Lanka, at any time of the day and night,
+                        making
+                        your travel seamless and comfortable. Our friendly and decent drivers will provide transport
+                        to
                         tourists and transit passengers to any part of the island.
                     </p>
                 </div>
@@ -179,8 +191,10 @@
                     </div>
                     <h4 class="text-uppercase mb-3">Chauffeur driven tours</h4>
                     <p class="m-0">
-                        Our vehicles and drivers can ensure that you have an unforgettable tour to any destination in
-                        Sri Lanka. Our drivers are polite, friendly and so experienced that they are able to cover any
+                        Our vehicles and drivers can ensure that you have an unforgettable tour to any destination
+                        in
+                        Sri Lanka. Our drivers are polite, friendly and so experienced that they are able to cover
+                        any
                         terrain in the island as well as capable of acting as guides at various tourist locations.
                     </p>
                 </div>
@@ -213,7 +227,8 @@
                     </div>
                     <h4 class="text-uppercase mb-3">24/7 Emergency Support</h4>
                     <p class="m-0">
-                        If selected and paid for at the time of rental, Owner offers Roadside Plus, which provides 24/7
+                        If selected and paid for at the time of rental, Owner offers Roadside Plus, which provides
+                        24/7
                         roadside assistance without additional charge. Towing (not related to an accident).
                         Lockout service (if keys are locked inside the Vehicle) .Fuel delivery service for up to 3
                         gallons of fuel
@@ -230,82 +245,80 @@
     <div class="container">
         <h1 class="services_main">WHAT SAYS <span style="color: #00a26e;">Customers</span></h1>
         <div class="row">
-            <div class="col-md-12">
-                <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="our-team">
-                                        <div class="pic">
-                                            <img src="assets/img/client-1.jpg">
-                                        </div>
-                                        <div class="team-content">
-                                            <h3 class="title">Dana ROBINSON</h3>
-                                            <span class="post">Everything worked out wonderful. We had read about this company on a forum. The car was delivered to the hotel on time and the price is fair. We received a friendly briefing and the car itself was in perfect condition. We rented it on Mauritius. Any time again</span>
-                                        </div>
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 ">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="assets/img/client-1.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="title">Dana ROBINSON</h3>
+                                        <span class="post">Everything worked out wonderful. We had read about this company on a forum. The car was delivered to the hotel on time and the price is fair. We received a friendly briefing and the car itself was in perfect condition. We rented it on Mauritius. Any time again</span>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="our-team">
-                                        <div class="pic">
-                                            <img src="assets/img/client-2.jpg">
-                                        </div>
-                                        <div class="team-content">
-                                            <h3 class="title">Dr. Bernard COVA</h3>
-                                            <span class="post">Very nice and competent contact person, tries very hard to organize everything to the satisfaction of the customer! Very friendly communication in German or English! Many thanks for everything!</span>
-                                        </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 ">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="assets/img/client-2.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="title">Dr. Bernard COVA</h3>
+                                        <span class="post">Very nice and competent contact person, tries very hard to organize everything to the satisfaction of the customer! Very friendly communication in German or English! Many thanks for everything!</span>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="our-team">
-                                        <div class="pic">
-                                            <img src="assets/img/client-3.jpg">
-                                        </div>
-                                        <div class="team-content">
-                                            <h3 class="title">Dr. Francis Guilbert</h3>
-                                            <span class="post">We were very satisfied with the organization of picking up the car at the airport and dropping it off at the ferry in Mahé. There were no problems and the car served our purpose. I definitely recommend it!</span>
-                                        </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 ">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="assets/img/client-3.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="title">Dr. Francis Guilbert</h3>
+                                        <span class="post">We were very satisfied with the organization of picking up the car at the airport and dropping it off at the ferry in Mahé. There were no problems and the car served our purpose. I definitely recommend it!</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="10000">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="our-team">
-                                        <div class="pic">
-                                            <img src="assets/img/client-4.jpg">
-                                        </div>
-                                        <div class="team-content">
-                                            <h3 class="title">Ted SICHELMAN</h3>
-                                            <span class="post">I had rented hyundai i10 on mauritius for great price and it was delivered at the airport with slight delay though but apart of that everything was absolutely fine and no extra hassle. thanks</span>
-                                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="assets/img/client-4.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="title">Ted SICHELMAN</h3>
+                                        <span class="post">I had rented hyundai i10 on mauritius for great price and it was delivered at the airport with slight delay though but apart of that everything was absolutely fine and no extra hassle. thanks</span>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="our-team">
-                                        <div class="pic">
-                                            <img src="assets/img/client-5.jpg">
-                                        </div>
-                                        <div class="team-content">
-                                            <h3 class="title">Dr. Noel ALBERT</h3>
-                                            <span class="post">Completely satisfied!
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="assets/img/client-5.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="title">Dr. Noel ALBERT</h3>
+                                        <span class="post">Completely satisfied!
                                 Friendly staff, good mediation, fair prices. When I forgot my expensive glasses in the glove compartment while island hopping Seychelles on the first island, they arranged for me to collect them at the airport before departure!
                                                                                 </span>
-                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="our-team">
-                                        <div class="pic">
-                                            <img src="assets/img/client-6.jpg">
-                                        </div>
-                                        <div class="team-content">
-                                            <h3 class="title">Dr. Saverio TOMASELLA</h3>
-                                            <span class="post">Reliable car rental with fair prices
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="assets/img/client-6.jpg">
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="title">Dr. Saverio TOMASELLA</h3>
+                                        <span class="post">Reliable car rental with fair prices
                                 We received on Mauritius the car rental we wanted on time at the hotel, even 45 minutes earlier thank scheduled.</span>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -396,7 +409,7 @@
     <div class="container pt-5 pb-3">
         <h1 class="services_main">Contact <span style="color: #00a26e;">Us</span></h1>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="row mb-5">
                     <div class="col-md-12 contact-info">
                         <div class="border w-100 p-4 rounded mb-2 d-flex">
@@ -424,12 +437,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-2">
+            <div class="col-lg-4 col-md-6 mb-2">
                 <div class="contact-form bg-light mb-4" style="padding: 30px;">
                     <form>
                         <div class="row">
                             <div class="col-6 form-group">
-                                <input type="text" class="form-control p-4" placeholder="Your Name" required="required">
+                                <input type="text" class="form-control p-4" placeholder="Your Name"
+                                       required="required">
                             </div>
                             <div class="col-6 form-group">
                                 <input type="email" class="form-control p-4" placeholder="Your Email"
@@ -450,7 +464,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-lg-4 mb-2">
+            <div class="col-lg-4 col-md-6 mb-2">
                 <div class="map-box">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.475068455845!2d79.90495247483715!3d6.711730220947672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2461782f0d61f%3A0x82ba0136f5d22633!2sPanadura%20Bus%20Stop!5e0!3m2!1sen!2slk!4v1700745117964!5m2!1sen!2slk"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"

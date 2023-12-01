@@ -1,4 +1,3 @@
-
 let contents = ["Rent a Car Directly From Owner ", "Rent a Car Anywhere Anytime ", "SRI LANKA’S NO. 1 VEHICLE SHARING NETWORK "];
 
 let charCount = 0;
@@ -33,7 +32,7 @@ function animateText() {
 
 };
 
-$(document).ready(function() {
+$(document).ready(function () {
     $("#homeBtn>a").css("color", "#00a26e");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#ffffff");
@@ -41,10 +40,11 @@ $(document).ready(function() {
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#ffffff");
 });
 
 
-$("#homeBtn").click(function() {
+$("#homeBtn").click(function () {
     $("#homeBtn>a").css("color", "#00a26e");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#ffffff");
@@ -52,9 +52,10 @@ $("#homeBtn").click(function() {
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#ffffff");
 });
 
-$("#aboutBtn").click(function() {
+$("#aboutBtn").click(function () {
     $("#homeBtn>a").css("color", "#ffffff");
     $("#aboutBtn>a").css("color", "#00a26e");
     $("#serviceBtn>a").css("color", "#ffffff");
@@ -62,9 +63,10 @@ $("#aboutBtn").click(function() {
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#ffffff");
 });
 
-$("#serviceBtn").click(function() {
+$("#serviceBtn").click(function () {
     $("#homeBtn>a").css("color", "#ffffff");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#00a26e");
@@ -72,9 +74,10 @@ $("#serviceBtn").click(function() {
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#ffffff");
 });
 
-$("#carsBtn").click(function() {
+$("#carsBtn").click(function () {
     $("#homeBtn>a").css("color", "#ffffff");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#ffffff");
@@ -82,9 +85,10 @@ $("#carsBtn").click(function() {
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#ffffff");
 });
 
-$("#clientBtn").click(function() {
+$("#clientBtn").click(function () {
     $("#homeBtn>a").css("color", "#ffffff");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#ffffff");
@@ -92,9 +96,10 @@ $("#clientBtn").click(function() {
     $("#clientBtn>a").css("color", "#00a26e");
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#ffffff");
 });
 
-$("#contactBtn").click(function() {
+$("#contactBtn").click(function () {
     $("#homeBtn>a").css("color", "#ffffff");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#ffffff");
@@ -102,9 +107,10 @@ $("#contactBtn").click(function() {
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#00a26e");
     $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#ffffff");
 });
 
-$("#registerBtn").click(function() {
+$("#registerBtn").click(function () {
     $("#homeBtn>a").css("color", "#ffffff");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#ffffff");
@@ -112,6 +118,18 @@ $("#registerBtn").click(function() {
     $("#clientBtn>a").css("color", "#ffffff");
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#00a26e");
+    $("#loginBtn>a").css("color", "#ffffff");
+});
+
+$("#loginBtn").click(function () {
+    $("#homeBtn>a").css("color", "#ffffff");
+    $("#aboutBtn>a").css("color", "#ffffff");
+    $("#serviceBtn>a").css("color", "#ffffff");
+    $("#carsBtn>a").css("color", "#ffffff");
+    $("#clientBtn>a").css("color", "#ffffff");
+    $("#contactBtn>a").css("color", "#ffffff");
+    $("#registerBtn>a").css("color", "#ffffff");
+    $("#loginBtn>a").css("color", "#00a26e");
 });
 
 
@@ -122,11 +140,11 @@ $("#registerBtn").click(function() {
         return $(this).each(function () {
             // set options for current element
             var settings = $.extend({}, $.fn.countTo.defaults, {
-                from:            $(this).data('from'),
-                to:              $(this).data('to'),
-                speed:           $(this).data('speed'),
+                from: $(this).data('from'),
+                to: $(this).data('to'),
+                speed: $(this).data('speed'),
                 refreshInterval: $(this).data('refresh-interval'),
-                decimals:        $(this).data('decimals')
+                decimals: $(this).data('decimals')
             }, options);
 
             // how many times to update the value, and how much to increment the value on each update
@@ -157,7 +175,7 @@ $("#registerBtn").click(function() {
 
                 render(value);
 
-                if (typeof(settings.onUpdate) == 'function') {
+                if (typeof (settings.onUpdate) == 'function') {
                     settings.onUpdate.call(self, value);
                 }
 
@@ -167,7 +185,7 @@ $("#registerBtn").click(function() {
                     clearInterval(data.interval);
                     value = settings.to;
 
-                    if (typeof(settings.onComplete) == 'function') {
+                    if (typeof (settings.onComplete) == 'function') {
                         settings.onComplete.call(self, value);
                     }
                 }
@@ -212,4 +230,21 @@ jQuery(function ($) {
         options = $.extend({}, options || {}, $this.data('countToOptions') || {});
         $this.countTo(options);
     }
+});
+
+jQuery(function ($) {
+    // Show or hide the sticky footer button
+    $(window).on("scroll", function () {
+        if ($(this).scrollTop() > 200) {
+            $(".scroll-to-top").fadeIn(200);
+        } else {
+            $(".scroll-to-top").fadeOut(200);
+        }
+    });
+
+    // Animate the scroll to top
+    $(".scroll-to-top").on("click", function (event) {
+        event.preventDefault();
+        $("html, body").animate({scrollTop: 0}, 300);
+    });
 });

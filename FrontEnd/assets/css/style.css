@@ -12,7 +12,7 @@
     z-index: 10;
 }
 
-#navIcon{
+#navIcon {
     color: #ffffff;
 }
 
@@ -471,7 +471,7 @@
         margin-bottom: 10px;
     }
 
-    .clientSection{
+    .clientSection {
         height: 1400px;
     }
 }
@@ -684,3 +684,71 @@
 
 /*Contact Section End*/
 
+/*Footer Section Start */
+
+.scroll-to-top {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    display: none;
+    z-index: 99999;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #00a26e;
+    line-height: 55px;
+}
+
+.scroll-to-top .scroll-icon {
+    font-size: 31px;
+    color: #ffffff;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    background: #00a26e;
+    color: white;
+}
+
+.footerSection {
+    background: #0e0c06;
+}
+
+.txt-title{
+    color: white!important;
+}
+
+.txt-title>a{
+    color: white;
+    font-weight: bolder;
+}
+
+.txt-title>a:hover{
+    color: #00a26e;
+}
+
+/*Footer Section End */

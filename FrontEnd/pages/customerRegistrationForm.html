@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/registerFormStyles.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
 </head>
 <body>
 
@@ -124,6 +125,13 @@
                             <small class="control-error text-danger" id="lbl_license_Img"></small>
                         </div>
                         <div class="col-lg-6 col-md-8">
+                            <label for="role_Type" class="form-label">Role type</label>
+                            <select class="form-control" id="role_Type" name="role_Type">
+                                <option value="REGISTERED_USER">REGISTERED_USER</option>
+                            </select>
+                            <small class="control-error text-danger"></small>
+                        </div>
+                        <div class="col-lg-6 col-md-8">
                             <label class="form-label" for="user_Name">User Name</label>
                             <input class="form-control" id="user_Name" name="user_Name" placeholder="User Name"
                                    type="text">
@@ -154,6 +162,7 @@
 <script src="../assets/js/script.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
 <script src="../controller/customerRegisterFormController.js"></script>
+<script src="../assets/js/aos.js"></script>
 
 </body>
 </html>

@@ -53,6 +53,12 @@ $(document).ready(function () {
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
+    $('#login-block').attr('style', 'background : white; !important');
+
 });
 
 
@@ -65,6 +71,12 @@ $("#homeBtn").click(function () {
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
+    $('#login-block').attr('style', 'background : white; !important');
+
 });
 
 $("#aboutBtn").click(function () {
@@ -76,6 +88,12 @@ $("#aboutBtn").click(function () {
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
+    $('#login-block').attr('style', 'background : white; !important');
+
 });
 
 $("#serviceBtn").click(function () {
@@ -87,6 +105,12 @@ $("#serviceBtn").click(function () {
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
+    $('#login-block').attr('style', 'background : white; !important');
+
 });
 
 $("#carsBtn").click(function () {
@@ -98,6 +122,12 @@ $("#carsBtn").click(function () {
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
+    $('#login-block').attr('style', 'background : white; !important');
+
 });
 
 $("#clientBtn").click(function () {
@@ -109,6 +139,12 @@ $("#clientBtn").click(function () {
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#ffffff");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
+    $('#login-block').attr('style', 'background : white; !important');
+
 });
 
 $("#contactBtn").click(function () {
@@ -120,6 +156,12 @@ $("#contactBtn").click(function () {
     $("#contactBtn>a").css("color", "#00a26e");
     $("#registerBtn>a").css("color", "#ffffff");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
+    $('#login-block').attr('style', 'background : white; !important');
+
 });
 
 $("#registerBtn").click(function () {
@@ -131,9 +173,20 @@ $("#registerBtn").click(function () {
     $("#contactBtn>a").css("color", "#ffffff");
     $("#registerBtn>a").css("color", "#00a26e");
     $("#loginBtn>a").css("color", "#ffffff");
+
+    $('#container-login').attr('style', 'display : none !important');
+    $('#login-block').attr('style', 'background : white; !important');
+    $('#indexContent').attr('style', 'display : block !important');
+    $('#header_section').attr('style', 'margin-top : 0 !important');
 });
 
 $("#loginBtn").click(function () {
+    $('#container-login').attr('style', 'display : block !important');
+    $('#indexContent').attr('style', 'display : none !important');
+    $('#login-block').attr('style', 'background : linear-gradient(to bottom, #FFB88C, #DE6262); !important');
+    $('#login-block').attr('style', 'margin-top : -50px  !important');
+    $('#header_section').attr('style', 'margin-top : -90px !important');
+
     $("#homeBtn>a").css("color", "#ffffff");
     $("#aboutBtn>a").css("color", "#ffffff");
     $("#serviceBtn>a").css("color", "#ffffff");

@@ -1,3 +1,23 @@
+let baseURL = "http://localhost:8080/BackEnd_war/";
+
+$("#btnRegisterDriver").click(function () {
+    let driverFormData = new FormData($("#registerForm")[0]);
+    $.ajax({
+        url: baseURL + "driver",
+        method: "post",
+        data: driverFormData,
+        contentType: false,
+        processData: false,
+        success: function (res) {
+            // alert(res.message)
+            saveUpdateAlert("Driver", res.message);
+        },
+        error: function (error) {
+            // alert(error.responseJSON.message);
+            unSuccessUpdateAlert("Driver", JSON.parse(error.responseText).message);
+        }
+    });
+});
 function loadSelectedImage(divId) {
 
     $(divId).on("change", function (e) {
